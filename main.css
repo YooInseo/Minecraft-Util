@@ -1,0 +1,40 @@
+.disclickable { pointer-events: none; }
+
+.colum{
+
+    width: 35px;
+    height: 35px;
+    background-color: #9c9c9c;
+    border: 3px solid;
+    border-top: solid 3px black;
+    border-left: solid 3px black;
+    border-bottom: solid 3px rgb(233, 230, 230);
+    border-right: solid 3px rgb(233, 230, 230);
+    border-image-slice: 1;
+    float: left;
+ }
+.title{
+    font-size: 35px;
+    color: black;
+    display: inline-block;
+
+ 
+ }
+
+.line {
+    position: absolute;
+}
+
+ 
+.containor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.inventory{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
