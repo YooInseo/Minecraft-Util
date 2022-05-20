@@ -1,0 +1,45 @@
+.disclickable { pointer-events: none; }
+
+
+
+.inventory{
+    background-color: #9c9c9c;
+    width: 400px;
+    height: 400px;
+    display: block;
+}
+
+.colum{
+    width: 35px;
+    height: 35px;
+    background-color: #9c9c9c;
+    border: 3px solid;
+    border-top: solid 3px black;
+    border-left: solid 3px black;
+    border-bottom: solid 3px rgb(233, 230, 230);
+    border-right: solid 3px rgb(233, 230, 230);
+    display: inline-block;
+    margin: -1px;
+}
+.title{
+    font-size: 35px;
+    color: black;
+    display: flex;
+ }
+
+.containor{
+    background-color: #9c9c9c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.option{
+    display: flex;
+    background-color: #9c9c9c;
+    right: 0;
+    bottom: 0;
+    transform-origin: 100% 100%;
+}
+
+ 
