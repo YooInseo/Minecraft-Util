@@ -13,47 +13,25 @@
         <script src="js/itemstack.js"></script>
 
     
-        <div class="inventory">
-            <div class="title">Test</div>
-            
-            <div class="colum"></div>
-            <div class="colum"></div>
-            <div class="colum"></div>
-            <div class="colum"></div>
-            <div class="colum"></div>
-            <div class="colum"></div>
-            <div class="colum"></div>
-            <div class="colum"></div>
-            <div class="colum"></div>
-            <div class="colum"></div>
-            <div class="colum"></div>
-            <div class="colum"></div>
-            <div class="colum"></div>
-            <div class="colum"></div>
-            <div class="colum"></div>
-            <div class="colum"></div>
-            <div class="colum"></div>
-            <div class="colum"></div>
-            <div class="colum"></div>
-            <div class="colum"></div>
-            <div class="colum"></div>
-            <div class="colum"></div>
-            <div class="colum"></div>
-            <div class="colum"></div>
-            <div class="colum"></div>
-            <div class="colum"></div>
-            <div class="colum"></div>
-            <div class="colum"></div>
-            <div class="colum"></div>
-            <div class="colum"></div>
-            <div class="colum"></div>
-            <div class="colum"></div>
-            <div class="colum"></div>
-            <div class="colum"></div>
-            <div class="colum"></div>
-            <div class="colum"></div>
+        <div class="inventory" id="inventory">
+            <div class="title">유저 시장</div>
+         
         </div>
 
+ 
+        <table>
+            <thead>
+                <tr>
+                    Size:
+                </tr>
+                <td>
+                     <span id="valBox"></span>
+                    <input type="range" min="0" max="54" value="0" step="9" class="slidecontainer" id="size" onchange="showVal(this.value)"> 
 
+ 
+                </td>
+            </thead>
+        </table>
+     
     </body>
 </html>

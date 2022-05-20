@@ -2,22 +2,31 @@ var colum;
 
 var size;
 var name;
+
+var presize;
+var nextsize;
+
 var sizetype = sizetype
-var obj = document.getElementById("inventory");
+var obj = document.getElementById("size");
+var inventory = document.getElementById("inventory");
+let html = document.createElement("colum");
 
-function Create(){
+ 
 
-    colum = $('#colum').val()
-    for(int = 0; int < size; int++){
-        
+function showVal(newVal){
+    
+    if(newVal != 0){
+        for(int = 0; int < newVal; int++){
+            var inv = document.getElementById('inventory');
+            var elemDiv = document.createElement('div');
+             elemDiv.className = 'colum';
+ 
+            inv.append(elemDiv);
+        }
+    } else{
     }
+ 
+    console.log( "현재 칸 " + parseInt(newVal));
 
-}
-const sizetype = {
-    9: obj.style.width = 500,
-    18: 18,
-    27: 27,
-    36: 36,
-    45: 45,
-    54:54
+ 
 }

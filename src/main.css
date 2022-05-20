@@ -3,10 +3,12 @@
 
 
 .inventory{
-    background-color: #9c9c9c;
+    display: block;
+    background-color: #8a8a8a;
     width: 400px;
     height: 400px;
-    display: block;
+    padding: 10px;
+    border-radius: 1.5px;
 }
 
 .colum{
@@ -19,10 +21,9 @@
     border-bottom: solid 3px rgb(233, 230, 230);
     border-right: solid 3px rgb(233, 230, 230);
     display: inline-block;
-    margin: -1px;
 }
 .title{
-    font-size: 35px;
+    font-size: 20px;
     color: black;
     display: flex;
  }
@@ -43,3 +44,37 @@
 }
 
  
+.slidecontainer {
+    width: 100%;
+  }
+  
+  .slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 25px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .slider:hover {
+    opacity: 1;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #04AA6D;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #04AA6D;
+    cursor: pointer;
+  }

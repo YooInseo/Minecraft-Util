@@ -1,9 +1,9 @@
 var name;
 var type;
 var loc;
+const selectElement = document.getElementById("");
 
 function findimage(){
-    var image = <img src={require('../src/items/'+ type + '.png')} />
 
 
     return image;
